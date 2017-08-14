@@ -8,7 +8,7 @@ Group:		Applications/Utilities
 License:        GPLv2
 URL:            http://goaccess.io 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-Source:  	https://github.com/tsauce/goaccess-rpm-build/blob/master/goaccess-%{version}-%{release}.tar.gz
+Source:  	https://github.com/tsauce/goaccess-rpm-build/blob/master/goaccess-%{version}.tar.gz
 
 BuildRequires:	glib2-devel
 BuildRequires:	automake
