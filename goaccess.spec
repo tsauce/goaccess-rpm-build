@@ -37,6 +37,6 @@ make install DESTDIR=%{buildroot}
 %{_datadir}/doc/%{name}/*
 
 %changelog
-* added new build that includes HTTP 429 code - 1.2-1
+* Mon Aug 14 2017 tsauce@gmail.com - added new build that includes HTTP 429 code - 1.2-1
 * Mon Apr 24 2017 Chris Collins <collins.christopher@gmail.com> - 1.2
 - Initial packaging
